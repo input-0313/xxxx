@@ -556,10 +556,10 @@ class GaussianModel:
         In the dynamic deformation stage, normals are updated using a coordinate system transformation to maintain consistency with local geometry
 
         Args:
-            iteration (int): Current training iteration, used to control update frequency and stage.
-            d_xyz (Tensor or float): Deformation offset for positions (used in dynamic stage).
-            d_rotation (Tensor or float): Deformation offset for rotations (used in dynamic stage).
-            d_scaling (Tensor or float): Deformation offset for scaling (used in dynamic stage).
+            iteration: Current training iteration
+            d_xyz: Deformation offset for positions (used in dynamic stage)
+            d_rotation: Deformation offset for rotations (used in dynamic stage)
+            d_scaling: Deformation offset for scaling (used in dynamic stage)
 
         Notes:
             The update is performed every 30 iterations to reduce computational overhead.
@@ -603,7 +603,7 @@ class GaussianModel:
             deformed_rot_matrices = build_rotation(deformed_rotation)
             
             # Process in chunks to save memory
-            chunk_size = min(100000, batch_size)  # 调整块大小以适应显存
+            chunk_size = min(100000, batch_size)
             chunks = (batch_size + chunk_size - 1) // chunk_size
             
             transformed_normals = torch.zeros_like(self._normals)
