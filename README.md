@@ -6,7 +6,7 @@
 
 ## Dataset
 
-In this paper, we use:
+We use publicly available datasets for all experiments:  
 
 - synthetic dataset from [D-NeRF](https://www.albertpumarola.com/research/D-NeRF/index.html).
 - real-world dataset from [NeRF-DS](https://jokeryan.github.io/projects/nerf-ds/).
