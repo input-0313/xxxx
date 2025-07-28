@@ -1,6 +1,6 @@
 # Anonymous Repository
 
-**This code is provided solely for AAAI 2026 anonymous review.**
+**This code is provided exclusively for anonymous peer review.**
 
 **Any other use, distribution, or publication is strictly prohibited.**
 
