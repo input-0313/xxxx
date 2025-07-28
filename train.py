@@ -9,8 +9,8 @@
 # For inquiries contact  george.drettakis@inria.fr
 #
 # -----------------------------------------------------------------------------------------------------------------------
-# This code was developed by the authors of AAAI 2026 submission #14139 in 2025.
-# It is provided solely for anonymous peer review of AAAI 2026 and must not be distributed or used for any other purpose.
+# This code is provided exclusively for anonymous peer review.
+# Any other use, distribution, or publication is strictly prohibited.
 # -----------------------------------------------------------------------------------------------------------------------
 
 import os
