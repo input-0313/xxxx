@@ -154,7 +154,7 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations):
                 if iteration > opt.densify_from_iter and iteration % opt.densification_interval == 0:
                     size_threshold = 20 if iteration > opt.opacity_reset_interval else None
                 
-                    if pipe.use_curvature:
+                    if pipe.use_garo:
                         gaussians.densify_and_prune_with_curvature(
                             opt.densify_grad_threshold, opt.opacity_reset_threshold, 
                             scene.cameras_extent, size_threshold
