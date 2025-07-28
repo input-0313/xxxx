@@ -73,7 +73,7 @@ class PipelineParams(ParamGroup):
         self.convert_SHs_python = False
         self.compute_cov3D_python = False
         self.debug = False
-        self.use_curvature = True
+        self.use_garo = True
         super().__init__(parser, "Pipeline Parameters")
 
 
