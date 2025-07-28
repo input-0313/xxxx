@@ -8,6 +8,10 @@
 #
 # For inquiries contact  george.drettakis@inria.fr
 #
+# -----------------------------------------------------------------------------------------------------------------------
+# This code is provided exclusively for anonymous peer review.
+# Any other use, distribution, or publication is strictly prohibited.
+# -----------------------------------------------------------------------------------------------------------------------
 
 from pathlib import Path
 import os
