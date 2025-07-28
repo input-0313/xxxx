@@ -1,4 +1,4 @@
-# GARO: Geometry-Aware Redundancy Optimization for Real-Time and High-Fidelity Dynamic Gaussian Splatting
+# Anonymous Repository
 
 **This code is provided solely for AAAI 2026 anonymous review.**
 
