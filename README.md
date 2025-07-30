@@ -73,13 +73,13 @@ pip install -r requirements.txt
 **D-NeRF:**
 
 ```shell
-python train.py -s path/to/your/d-nerf/dataset -m output/exp-name --eval --is_blender --use_garo
+python train.py -s path/to/your/d-nerf/dataset -m output/exp-name --eval --is_blender
 ```
 
 **NeRF-DS:**
 
 ```shell
-python train.py -s path/to/your/real-world/dataset -m output/exp-name --eval --iterations 20000 --use_garo
+python train.py -s path/to/your/real-world/dataset -m output/exp-name --eval --iterations 20000
 ```
 
 ### Render
